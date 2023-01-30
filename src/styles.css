@@ -146,7 +146,6 @@ flex-direction: row;
  margin-bottom: 8px;
 }
 
-
 .info-block-label span {/*this is the full span of the container, right?*/
   color: var(--white);
   font-size: 0.8em;
