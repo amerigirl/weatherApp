@@ -15,13 +15,13 @@ constructor(private WeatherService: WeatherService) {  //injects service inside 
 }
 
   ngOnInit(): void {
-  //makes a get call to get the service
+  //makes a get call to get the weathr data
 
-  this.WeatherService.getWeatherData('landon')  //only because I can't figure out how to get KC from the API yet
-  .subscribe({
-    next: (response) => {
+  this.WeatherService.getWeatherData('Kansas City')
+  .subscribe({  //not sure why we have to subscribe to the method
+    next: (response) => {  //I don't really know what's happening in this method--line by line
       console.log(response);
-      
+
     }
   })
   }

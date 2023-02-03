@@ -1,7 +1,7 @@
 
 export const environment = {
   production: false,
-  weatherBaseUrl: 'https://open-weather13.p.rapidapi.com', //url from rapidapi
+  weatherBaseUrl: 'https://open-weather13.p.rapidapi.com/city/Kansas%20City', //url from rapidapi
 
   /*directly copied key and host from API; renamed
     these will be used to set the weather in service.ts*/
